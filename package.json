@@ -1,0 +1,10 @@
+{
+  "name": "canecas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "andressa-ricardo <andressaricardo30@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.3.8"
+  }
+}
