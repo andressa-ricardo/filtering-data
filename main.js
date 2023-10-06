@@ -12,5 +12,12 @@ import fs from "fs";
   await page.click("#nav-search-submit-button");
   await page.waitForNavigation();
 
+  const mugs = await page.evaluate(() => {
+    const priceSelector = document.querySelectorAll(".a-price-whole");
+    const mugSelector = document.querySelectorAll(
+      "span[data-component-type='s-search-results'] [data-csa-c-type='item']"
+    );
+  });
+
   await browser.close();
 })();
