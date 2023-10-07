@@ -26,12 +26,21 @@ async function pesquisarAmazon(termoDePesquisa) {
             .querySelector(".a-price-whole")
             .textContent.replace(/\D/g, "")
         );
+
+        const title = itemSelector[i].querySelector(
+          ".s-title-instructions-style > h2 span"
+        ).textContent;
+
+        const starsElement = itemSelector[i].querySelector(".a-icon-alt");
+        const stars = starsElement
+          ? starsElement.textContent
+          : "Não contém a quantidade de estrelas";
+
         if (price <= 40) {
           produtos.push({
-            title: itemSelector[i].querySelector(
-              ".s-title-instructions-style > h2 span"
-            ).textContent,
+            title: title,
             price: price,
+            stars: stars,
           });
         }
       } catch {}
@@ -44,7 +53,7 @@ async function pesquisarAmazon(termoDePesquisa) {
   return resultados;
 }
 
-pesquisarAmazon("batom")
+pesquisarAmazon("lapis de olho")
   .then((resultados) => {
     console.log(resultados);
   })
