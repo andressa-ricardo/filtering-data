@@ -39,9 +39,9 @@ async function pesquisarAmazon(termoDePesquisa) {
 
         if (price <= 40) {
           produtosLocais.push({
-            título: title,
-            preço: price,
-            estrelas: stars,
+            tittle: title,
+            price: price,
+            stars: stars,
           });
         }
       } catch {}
@@ -56,7 +56,7 @@ async function pesquisarAmazon(termoDePesquisa) {
   return resultados;
 }
 
-pesquisarAmazon("blush")
+pesquisarAmazon("mouse")
   .then(() => {
     fs.writeFileSync(
       "produtos.json",
