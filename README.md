@@ -42,6 +42,7 @@ Criação de um bot que entra no site da amazon, pesquisa pelo produto que lhe f
 
 ## ⌨️ Como utilizar:
 
+- `git clone https://github.com/andressa-ricardo/getting-date`
 - ` npm install `
 - altere pro produto que você quer pesquisar, e pro valor máximo que você quer o produto(no código, tem um comentário marcando onde alterar o preço e o produto)
 - ` node index.js `
