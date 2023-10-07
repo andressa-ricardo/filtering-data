@@ -45,7 +45,7 @@ async function pesquisarAmazon(termoDePesquisa) {
 
         const linkCompleto = `https://www.amazon.com.br${link}`;
 
-        //aqui você pode alterar pro valor máximo que quer o produto
+        //aqui você pode alterar pro valor máximo que quer filtrar os produtos
         if (price <= 70) {
           produtosLocais.push({
             title: title,
