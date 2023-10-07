@@ -39,7 +39,7 @@ async function pesquisarAmazon(termoDePesquisa) {
     return produtos;
   });
 
-  //   await browser.close();
+  await browser.close();
 
   return resultados;
 }
