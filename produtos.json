@@ -1,104 +1,130 @@
 {
   "produtos": [
     {
-      "tittle": "Fortrek PRO M7 RGB - Mouse Gamer, Preto",
-      "price": 34,
-      "stars": "4,7 de 5 estrelas"
+      "title": "Teclado com fio USB Logitech K120, Resistente à Respingos, Barra de Espaço Curva, Compatível com PC e Notebook, Layout ABNT2",
+      "price": 64,
+      "stars": "4,8 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Silenciosas-Resistente-Respingos-Logitech-Teclados/dp/B074WL3ZHZ/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-6"
     },
     {
-      "tittle": "Mouse com fio USB Logitech M90 com Design Ambidestro e Facilidade Plug and Play",
+      "title": "Teclado Multilaser Slim Standard Usb Preto Tc065",
       "price": 29,
-      "stars": "4,8 de 5 estrelas"
+      "stars": "4,3 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Multilaser-TC065-Teclado-Standard-Preto/dp/B017KR5A4Q/ref=sr_1_7?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-7"
     },
     {
-      "tittle": "Mouse Multilaser Sem Fio 2.4 Ghz Preto Usb - Mo212",
-      "price": 27,
-      "stars": "4,4 de 5 estrelas"
+      "title": "Teclado Multilaser Slim Preto Laser Usb - TC193",
+      "price": 23,
+      "stars": "4,5 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Multilaser-TC193-Teclado-Laser-Preto/dp/B075VFWDD4/ref=sr_1_8?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-8"
     },
     {
-      "tittle": "Mouse Com Fio Mid 1200dpi Conexão Usb Cabo de 120cm 3 Botões Textura Fosca Preto - MO255",
-      "price": 14,
-      "stars": "4,5 de 5 estrelas"
+      "title": "Teclado Preto 0014 Bright CX 1 UN com fio e USB",
+      "price": 19,
+      "stars": "4,4 de 5 estrelas",
+      "link": "https://www.amazon.com.br/BRIGHT-0014-Teclado-Bright/dp/B074WKF94T/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-10"
     },
     {
-      "tittle": "Multilaser MO251 - Mouse Sem Fio 2.4 Ghz 1200 DPI Usb, Preto, normal",
-      "price": 27,
-      "stars": "4,3 de 5 estrelas"
+      "title": "Teclado Basico Slim Laser Usb Pt Tc193Bu, Multilaser, TC193BU",
+      "price": 29,
+      "stars": "4,4 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Basico-Laser-Multilaser-TC193BU/dp/B07T4SML24/ref=sr_1_11?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-11"
     },
     {
-      "tittle": "Fortrek Spider Tarantula OM-702 Mouse Gamer, Preto/Vermelho",
-      "price": 27,
-      "stars": "4,6 de 5 estrelas"
-    },
-    {
-      "tittle": "Fortrek OM-801, Mouse Gamer USB, 3200 DPI, Preto/Verde",
-      "price": 27,
-      "stars": "4,7 de 5 estrelas"
-    },
-    {
-      "tittle": "Mouse Classic Box Óptico Full USB, Multilaser, Vermelho - MO303",
-      "price": 10,
-      "stars": "4,5 de 5 estrelas"
-    },
-    {
-      "tittle": "Mouse Sem Fio Recarregavel 2.4g Wireless USB para Notebook Desktop TV (PRETO)",
-      "price": 24,
-      "stars": "4,5 de 5 estrelas"
-    },
-    {
-      "tittle": "Mouse Multilaser Emborrachado Preto Com Fio Usb - MO222",
-      "price": 22,
-      "stars": "4,6 de 5 estrelas"
-    },
-    {
-      "tittle": "Mouse gamer 3200 dpi com fio USB 7D extreme 7cores RGB xtreme 4modo DPI gaming MS-G260 x7",
-      "price": 20,
-      "stars": "4,6 de 5 estrelas"
-    },
-    {
-      "tittle": "C3Tech Mouse Sem Fio Preto M-W17BK - Wifi 2.4GHz, alcance 12m, Ambidestro, 3 Botões,1200DPI, Windows, MAC OS, LINUX, CHROME OS",
-      "price": 20,
-      "stars": "4,1 de 5 estrelas"
-    },
-    {
-      "tittle": "Mouse Gamer Multilaser 2400DPI Led 7 Cores Branco - MO299",
-      "price": 20,
-      "stars": "5,0 de 5 estrelas"
-    },
-    {
-      "tittle": "Combo Mouse e Mousepad Gamer 3200DPI Preto e Verde Multilaser - MO273",
+      "title": "Teclado Com Fio Slim Multimídia Cabo de 130cm Resistente Água Conexão USB Preto - TC206",
       "price": 30,
-      "stars": "4,7 de 5 estrelas"
+      "stars": "4,5 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Multilaser-TC206-Teclado-Multim%C3%ADdia-Preto/dp/B074WLTSYB/ref=sr_1_13?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-13"
     },
     {
-      "tittle": "C3Tech Mouse USB Preto MS-31BK Ambidestro 1000DPI Compatível MacOS, Linux, Chrome OS, Windows, PC e Mac",
-      "price": 20,
-      "stars": "4,4 de 5 estrelas"
+      "title": "Teclado Gamer Semi Mecânico Multimídia Led Rgb Qwerty Antighosting Usb para Pc Notebook Xbox Series X S Ps4 Ps5",
+      "price": 52,
+      "stars": "4,4 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Mec%C3%A2nico-Multim%C3%ADdia-Antighosting-Notebook/dp/B09JPDJ956/ref=sr_1_14?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-14"
     },
     {
-      "tittle": "Mouse Gamer Spider 2 OM-705 USB 3200DPI Preto/Vermelho Fortrek",
-      "price": 33,
-      "stars": "4,8 de 5 estrelas"
+      "title": "Teclado Gamer Ragnar Superfície Metal LED Warrior - TC222",
+      "price": 69,
+      "stars": "4,3 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Gamer-Ragnar-Superf%C3%ADcie-Metal/dp/B07JWJVLNS/ref=sr_1_15?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-15"
     },
     {
-      "tittle": "Haiz Mouse Gamer Claw RGB Com Frio Ergonômico HZ-919",
-      "price": 39,
-      "stars": "4,7 de 5 estrelas"
+      "title": "Teclado USB Go Tech CMPK-01 ABNT2 Preto",
+      "price": 14,
+      "stars": "4,0 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Tech-CMPK-01-ABNT2-Preto/dp/B0CB6S4R76/ref=sr_1_16?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-16"
     },
     {
-      "tittle": "Mouse Sem Fio 2.4GHZ USB Branco - MO286",
-      "price": 27,
-      "stars": "4,5 de 5 estrelas"
+      "title": "Teclado Mini Slim Fino Abnt2 Bluetooth 10 metros Sem Fio Notebook Celular PC",
+      "price": 55,
+      "stars": "3,3 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Bluetooth-metros-Notebook-Celular/dp/B0BSG3K7YW/ref=sr_1_20?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-20"
     },
     {
-      "tittle": "Multilaser MOUSE SEM FIO 2.4 GHZ 1200DPI USB POWER SAVE COM PILHA MO309 PRETO",
-      "price": 35,
-      "stars": "4,3 de 5 estrelas"
+      "title": "Teclado gamer multimídia QWERTY Abnt2 USB Teclas Silenciosas Antighosting Led RGB Rainbow Slender Eg-212 para Pc Notebook Xbox Series X S Ps4 Ps5",
+      "price": 69,
+      "stars": "4,3 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-multim%C3%ADdia-Silenciosas-Antighosting-Notebook/dp/B0BLHTLB9M/ref=sr_1_30?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-30"
     },
     {
-      "tittle": "Mouse USB, C3Tech, Ms-20Bk, Mouses, 402021060101, Preto",
-      "price": 12,
-      "stars": "4,4 de 5 estrelas"
+      "title": "Teclado Gamer Com Hotkeys Multimidia Preto/Verde Multilaser - TC201",
+      "price": 31,
+      "stars": "4,3 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Multilaser-TC201-Teclado-Multimidia-Teclas/dp/B074WKPD92/ref=sr_1_32?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-32"
+    },
+    {
+      "title": "Fortrek Teclado Gamer BLACKFIRE NEW, PRETO",
+      "price": 56,
+      "stars": "4,7 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Fortrek-Teclado-Gamer-BLACKFIRE-PRETO/dp/B09V3FZD1N/ref=sr_1_33?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-33"
+    },
+    {
+      "title": "C3Tech Teclado USB Preto KB-15BK - Padrão ABNT2, design elegante, teclado tipo membrana",
+      "price": 23,
+      "stars": "4,3 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-USB-C3Tech-Preto-KB-15BK/dp/B09GNR8MJQ/ref=sr_1_34?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-34"
+    },
+    {
+      "title": "Teclado Bluetooth Universal sem Fio Ipad Iphone Computador Android Mac Note",
+      "price": 59,
+      "stars": "3,8 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Bluetooth-Universal-Computador-Android/dp/B07WHVT9GJ/ref=sr_1_35?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-35"
+    },
+    {
+      "title": "Teclado Mini Slim USB Preto TC154 - Multilaser",
+      "price": 56,
+      "stars": "3,8 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Multilaser-TC153-Teclado-Comfort-Preto/dp/B074WGMF1Q/ref=sr_1_41?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-41"
+    },
+    {
+      "title": "Teclado Gamer Rapid Fire Revolution Usb 2.0 Dazz",
+      "price": 49,
+      "stars": "4,8 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Gamer-Rapid-Revolution-Dazz/dp/B07PHV7RW5/ref=sr_1_42?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-42"
+    },
+    {
+      "title": "Teclado Gamer Spider GK706 ABNT2 Fortrek",
+      "price": 42,
+      "stars": "4,2 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Gamer-Fortrek-Preto-Vermelho/dp/B07X1VFBNX/ref=sr_1_45?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-45"
+    },
+    {
+      "title": "Kit Teclado E Mouse Sem Fio Wireless Para Computador Pc Notebook Português Teclado Abnt 2 Com Ç Home Office",
+      "price": 64,
+      "stars": "3,7 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Wireless-Computador-Notebook-Portugu%C3%AAs/dp/B0B59YC5N4/ref=sr_1_46?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-46"
+    },
+    {
+      "title": "Teclado Com Fio Light 3 Níveis e LED Ajustável Teclas Silenciosas e Conexão Usb Preto - TC268",
+      "price": 69,
+      "stars": "3,7 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-N%C3%ADveis-Ajust%C3%A1vel-Silenciosas-Conex%C3%A3o/dp/B0BLSVVN1H/ref=sr_1_50?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-50"
+    },
+    {
+      "title": "Teclado Standard Usb, Fortrek, Preto",
+      "price": 26,
+      "stars": "4,1 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Teclado-Standard-Usb-Fortrek-Preto/dp/B07Y5PWKZW/ref=sr_1_56?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-56"
     }
   ]
 }

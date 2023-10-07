@@ -2,6 +2,7 @@ import puppeteer from "puppeteer";
 import fs from "fs";
 
 let produtos = [];
+
 async function pesquisarAmazon(termoDePesquisa) {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -37,11 +38,20 @@ async function pesquisarAmazon(termoDePesquisa) {
           ? starsElement.textContent
           : "Não contém a quantidade de estrelas";
 
-        if (price <= 40) {
+        const linkElement = itemSelector[i].querySelector(
+          ".s-title-instructions-style > h2 a"
+        );
+        const link = linkElement ? linkElement.getAttribute("href") : "";
+
+        const linkCompleto = `https://www.amazon.com.br${link}`;
+
+        //aqui você pode alterar pro valor máximo que quer o produto
+        if (price <= 70) {
           produtosLocais.push({
-            tittle: title,
+            title: title,
             price: price,
             stars: stars,
+            link: linkCompleto,
           });
         }
       } catch {}
@@ -56,7 +66,8 @@ async function pesquisarAmazon(termoDePesquisa) {
   return resultados;
 }
 
-pesquisarAmazon("mouse")
+//aqui você altera pro produto que quer pesquisar
+pesquisarAmazon("teclado")
   .then(() => {
     fs.writeFileSync(
       "produtos.json",
@@ -71,6 +82,6 @@ pesquisarAmazon("mouse")
 
     console.log("Resultados salvos em produtos.json", produtos);
   })
-  .catch((error) => {
+  .catch((cropped) => {
     console.error("Erro ao pesquisar na Amazon:", error);
   });
