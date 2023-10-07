@@ -2,7 +2,7 @@
 ## 💻 Aplicação com o Puppeteer!
 
 
-Criação de um bot que entra no site da amazon, pesquisa pelo produto que lhe for passado, e filtra todas os produtos da primeira página em produtos menores ou iguais ao valor escolhido pelo usuário. Filtrando eles, os mesmas são pegos e adicionados dentro de um arquivo json, com seus respectivos títulos, preços, quantidade de estrelas do produto e do link.</h2>
+Criação de um bot que entra no site da amazon, pesquisa pelo produto que lhe for passado, e filtra todas os produtos da primeira página em produtos menores ou iguais ao valor escolhido. Filtrando eles, os mesmas são pegos e adicionados dentro de um arquivo json, com seus respectivos títulos, preços, quantidade de estrelas do produto e do link.</h2>
 
 
 ```
