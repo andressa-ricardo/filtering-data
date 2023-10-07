@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer";
 import fs from "fs";
 
+let produtos = [];
 async function pesquisarAmazon(termoDePesquisa) {
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
@@ -17,7 +18,7 @@ async function pesquisarAmazon(termoDePesquisa) {
       "span[data-component-type='s-search-results'] [data-csa-c-type='item']"
     );
 
-    const produtos = [];
+    const produtosLocais = [];
 
     for (let i = 0; i < itemSelector.length; i++) {
       try {
@@ -37,25 +38,38 @@ async function pesquisarAmazon(termoDePesquisa) {
           : "Não contém a quantidade de estrelas";
 
         if (price <= 40) {
-          produtos.push({
-            title: title,
-            price: price,
-            stars: stars,
+          produtosLocais.push({
+            título: title,
+            preço: price,
+            estrelas: stars,
           });
         }
       } catch {}
     }
-    return produtos;
+    return produtosLocais;
   });
 
   await browser.close();
 
+  produtos = resultados;
+
   return resultados;
 }
 
-pesquisarAmazon("lapis de olho")
-  .then((resultados) => {
-    console.log(resultados);
+pesquisarAmazon("blush")
+  .then(() => {
+    fs.writeFileSync(
+      "produtos.json",
+      JSON.stringify(
+        {
+          produtos: produtos,
+        },
+        null,
+        2
+      )
+    );
+
+    console.log("Resultados salvos em produtos.json", produtos);
   })
   .catch((error) => {
     console.error("Erro ao pesquisar na Amazon:", error);
