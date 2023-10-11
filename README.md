@@ -1,8 +1,8 @@
 
-## 💻 Aplicação com o Puppeteer!
+## 💻 Application with Puppeteer
 
 
-Criação de um bot que entra no site da amazon, pesquisa pelo produto que lhe for passado, e filtra todas os produtos da primeira página em produtos menores ou iguais ao valor escolhido. Filtrando eles, os mesmas são pegos e adicionados dentro de um arquivo json, com seus respectivos títulos, preços, quantidade de estrelas do produto e do link.</h2>
+Creation of a bot that enters the Amazon website, searches for the product given to it, and filters all products on the first page into products smaller than or equal to the chosen value. By filtering them, they are taken and added to a json file, with their respective titles, prices, number of stars for the product and link..</h2>
 
 
 ```
@@ -33,23 +33,23 @@ Criação de um bot que entra no site da amazon, pesquisa pelo produto que lhe f
 
 <hr/>
 
-## 📖 Bibliotecas utilizadas: 
+## 📖 Libraries used: 
 
 - puppeteer
 - fs
 
 <hr/>
 
-## ⌨️ Como utilizar:
+## ⌨️ How to use:
 
 - `git clone https://github.com/andressa-ricardo/getting-date`
 - ` npm install `
-- altere pro produto que você quer pesquisar, e pro valor máximo que você quer o produto(no código, tem um comentário marcando onde alterar o preço e o produto)
+- change it to the product you want to search for, and the maximum value you want for the product (in the code, there is a comment marking where to change the price and product)
 - ` node index.js `
 
 <hr/>
 
-## ✏️ Autor:
+## ✏️ Author:
 
 - Linkedin: [Andressa Ricardo](https://www.linkedin.com/in/andressa-ricardo/)
 - Github: [andressa-ricardo](https://github.com/andressa-ricardo)
