@@ -1,10 +1,9 @@
 import puppeteer from "puppeteer";
-import fs from "fs";
 
-let produtos = [];
+export async function pesquisarAmazon(termoDePesquisa, lowPrice, highPrice) {
+  let produtos = [];
 
-async function pesquisarAmazon(termoDePesquisa) {
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
 
   await page.goto("https://www.amazon.com.br/ref=nav_logo");
@@ -12,6 +11,12 @@ async function pesquisarAmazon(termoDePesquisa) {
   await page.waitForSelector("#twotabsearchtextbox");
   await page.type("#twotabsearchtextbox", termoDePesquisa, { delay: 100 });
   await page.click("#nav-search-submit-button");
+  if (lowPrice || highPrice) {
+    await page.waitForSelector("#low-price");
+    await page.type("#low-price", lowPrice, { delay: 100 });
+    await page.type("#high-price", highPrice, { delay: 100 });
+    await page.click("#high-price + span");
+  }
   await page.waitForNavigation();
 
   const resultados = await page.evaluate(() => {
@@ -45,43 +50,20 @@ async function pesquisarAmazon(termoDePesquisa) {
 
         const linkCompleto = `https://www.amazon.com.br${link}`;
 
-        //aqui você pode alterar pro valor máximo que quer filtrar os produtos
-        if (price <= 70) {
-          produtosLocais.push({
-            title: title,
-            price: price,
-            stars: stars,
-            link: linkCompleto,
-          });
-        }
+        produtosLocais.push({
+          title: title,
+          price: price,
+          stars: stars,
+          link: linkCompleto,
+        });
       } catch {}
     }
     return produtosLocais;
   });
 
-  await browser.close();
+  await browser.close()
 
   produtos = resultados;
 
   return resultados;
 }
-
-//aqui você altera pro produto que quer pesquisar
-pesquisarAmazon("teclado")
-  .then(() => {
-    fs.writeFileSync(
-      "produtos.json",
-      JSON.stringify(
-        {
-          produtos: produtos,
-        },
-        null,
-        2
-      )
-    );
-
-    console.log("Resultados salvos em produtos.json", produtos);
-  })
-  .catch((cropped) => {
-    console.error("Erro ao pesquisar na Amazon:", error);
-  });
