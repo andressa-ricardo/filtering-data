@@ -9,23 +9,23 @@ Creation of a bot that enters the Amazon website, searches for the product given
 {
   "produtos": [
     {
-      "title": "Teclado com fio USB Logitech K120, Resistente à Respingos, Barra de Espaço Curva, Compatível com PC e Notebook, Layout ABNT2",
-      "price": 64,
-      "stars": "4,8 de 5 estrelas",
-      "link": "https://www.amazon.com.br/Silenciosas-Resistente-Respingos-Logitech-Teclados/dp/B074WL3ZHZ/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-6"
+      "title": "Headset Gamer Mancer Aura, RGB, Drivers 50mm, Preto, MCR-AUR-RGB01",
+      "price": 132,
+      "stars": "4,7 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Headset-Gamer-Mancer-Drivers-MCR-AUR-RGB01/dp/B0BM29PK6J/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11X5FIFWTESH0&keywords=headset&qid=1697744835&refinements=p_36%3A10000-15000&rnid=17270949011&sprefix=headse%2Caps%2C248&sr=8-5&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
     },
     {
-      "title": "Teclado Multilaser Slim Standard Usb Preto Tc065",
-      "price": 29,
-      "stars": "4,3 de 5 estrelas",
-      "link": "https://www.amazon.com.br/Multilaser-TC065-Teclado-Standard-Preto/dp/B017KR5A4Q/ref=sr_1_7?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-7"
+      "title": "Headphone Fone de Ouvido Havit HV-H2232d, Gamer, Iluminação RGB, com Microfone, Falante de 50mm, Conector 3.5mm, HAVIT, HV-H2232d",
+      "price": 108,
+      "stars": "4,6 de 5 estrelas",
+      "link": "https://www.amazon.com.br/Headphone-HV-H2232d-Ilumina%C3%A7%C3%A3o-Microfone-Conector/dp/B07N78G8GB/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11X5FIFWTESH0&keywords=headset&qid=1697744835&refinements=p_36%3A10000-15000&rnid=17270949011&sprefix=headse%2Caps%2C248&sr=8-6&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9"
     },
     {
-      "title": "Teclado Multilaser Slim Preto Laser Usb - TC193",
-      "price": 23,
+      "title": "Headset Gamer XZONE, Com Suporte - GHS-01",
+      "price": 152,
       "stars": "4,5 de 5 estrelas",
-      "link": "https://www.amazon.com.br/Multilaser-TC193-Teclado-Laser-Preto/dp/B075VFWDD4/ref=sr_1_8?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=teclado&qid=1696703345&sr=8-8"
-    }
+      "link": "https://www.amazon.com.br/Headset-Gamer-com-Suporte-GHS-01/dp/B081BG7CCN/ref=sr_1_7?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11X5FIFWTESH0&keywords=headset&qid=1697744835&refinements=p_36%3A10000-15000&rnid=17270949011&sprefix=headse%2Caps%2C248&sr=8-7&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+    },
   ]
 }
 
@@ -44,8 +44,13 @@ Creation of a bot that enters the Amazon website, searches for the product given
 
 - `git clone https://github.com/andressa-ricardo/getting-date`
 - ` npm install `
-- change it to the product you want to search for, and the maximum value you want for the product (in the code, there is a comment marking where to change the price and product)
 - ` node index.js `
+-  after this, you can install the extension `rest client`(opcional for make requests in vscode):
+![](https://i.imgur.com/SzylsFS.png)
+to make requests in the file `test.http`. just change the product, low price and hight price that you want.
+- click in `Send Request` to make request
+ ![](https://i.imgur.com/T98cT4X.png)
+
 
 <hr/>
 
